@@ -48,7 +48,7 @@ public class Car {
     }
 }
 
-class Driver {
+class CarDriverDriver {
     public static void main(String[] args) {
         Car c1 = new Car();
         c1.setbrand("rolls royal");
