@@ -1,18 +1,17 @@
 package encapsulation;
 
-class Employee {
+public class CreateEmpObjMethod {
     String empName;
     int empId;
     double empSalary;
 
-    public static void createEmpObj(Employee emp) {
-        System.out.println("Employee Object Created" + emp);
+    public static CreateEmpObjMethod createEmpObj() {
+        System.out.println("Employee Object Created");
+        return new CreateEmpObjMethod();
     }
-}
 
-public class CreateEmpObjMethod {
     public static void main(String[] args) {
-        Employee E1 = new Employee();
-        Employee.createEmpObj(E1);
+        CreateEmpObjMethod E1 = createEmpObj();
+        System.out.println(E1);
     }
 }
