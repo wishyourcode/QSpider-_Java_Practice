@@ -1,6 +1,6 @@
 package encapsulation;
 
-public class Employee {
+public class Encapsulated_Emp {
     private String name;
     private double salary;
     private int id;
@@ -49,7 +49,7 @@ public class Employee {
 class InnerEmployee {
 
     public static void main(String[] args) {
-        Employee E1 = new Employee();
+        Encapsulated_Emp E1 = new Encapsulated_Emp();
         E1.setid(1);
         E1.setname("Vishal");
         E1.setsalary(69000);
