@@ -30,6 +30,7 @@ public class Multi_Level {
     public static void main(String[] args) {
         me obj = new me();
         obj.show();
+        System.out.println(obj.age);
     }
 
 }
