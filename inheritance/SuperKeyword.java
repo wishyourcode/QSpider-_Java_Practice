@@ -1,6 +1,6 @@
 package inheritance;
 
-class parent {
+class parent1 {
     String name = "Manoj Mishra";
     int age = 50;
 
@@ -10,7 +10,7 @@ class parent {
     }
 }
 
-class child extends parent {
+class child1 extends parent1 {
     String name = "Vishal Mishra";
     int age = 25;
 
@@ -25,7 +25,9 @@ class child extends parent {
 
 public class SuperKeyword {
     public static void main(String[] args) {
-        child c = new child();
+        child1 c = new child1();
+        c.show();
+        c.display();
         c.show();
     }
 }
