@@ -15,11 +15,13 @@ class child extends parent {
     int Sonage = 25;
 
     public void show() {
+        System.out.println("Father Name: " + name);
         System.out.println("Son Name: " + Sonname);
         System.out.println("Son Age: " + Sonage);
     }
 
 }
+
 public class singleLevel {
     public static void main(String[] args) {
         parent p = new parent();
