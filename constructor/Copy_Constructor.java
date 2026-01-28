@@ -25,7 +25,9 @@ public class Copy_Constructor {
 
     public static void main(String[] args) {
         Example E1 = new Example(3, 5);
+        // copy construcotr
         Example E2 = new Example(E1);
+        // assigning constructor not copy constructor
         Example E3 = E2;
         System.out.println("===============================");
         E2.Display();
