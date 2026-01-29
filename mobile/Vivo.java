@@ -2,6 +2,6 @@ package mobile;
 
 public class Vivo {
     public void PrintThank() {
-        System.out.println("Thank you for chooising :");
+        System.out.print("Thank you for chooising :");
     }
 }
