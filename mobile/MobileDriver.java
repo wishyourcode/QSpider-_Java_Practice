@@ -117,16 +117,16 @@ public class MobileDriver {
         System.out.println("Type Vivo for Vivo");
         System.out.println("Type Oppo for Oppo");
         System.out.print("Please Type your choice: ");
-        Scanner input = new Scanner(System.in);
         return input.next();
     }
+
+    static Scanner input = new Scanner(System.in);
 
     public static int IphoneInitializer() {
         System.out.println("Press 1: Iphone 13");
         System.out.println("Press 2: Iphone 15");
         System.out.println("Press 3: Iphone 17");
         System.out.print("Please Type your choice: ");
-        Scanner input = new Scanner(System.in);
         return input.nextInt();
     }
 
@@ -135,7 +135,6 @@ public class MobileDriver {
         System.out.println("Press 2: Samsung 24");
         System.out.println("Press 3: Samsung 25");
         System.out.print("Please Type your choice:");
-        Scanner input = new Scanner(System.in);
         return input.nextInt();
     }
 
@@ -144,7 +143,6 @@ public class MobileDriver {
         System.out.println("Press 2: Oppo Reno 8");
         System.out.println("Press 3: Oppo Reno 9");
         System.out.print("Please Type your choice:");
-        Scanner input = new Scanner(System.in);
         return input.nextInt();
     }
 
@@ -153,7 +151,6 @@ public class MobileDriver {
         System.out.println("Press 2: Vivo V Plus");
         System.out.println("Press 3: Vivo 2000");
         System.out.print("Please Type your choice:");
-        Scanner input = new Scanner(System.in);
         return input.nextInt();
     }
 }

@@ -31,8 +31,9 @@ public class OLADriver {
         }
     }
 
+    static Scanner input = new Scanner(System.in);
+
     public static int Initializer() {
-        Scanner input = new Scanner(System.in);
         System.out.println("====== Welcome to OLA ======");
         System.out.println("Press 1 : for the Mini car Booking");
         System.out.println("Press 2 : for the Sedan car Booking");
@@ -42,4 +43,5 @@ public class OLADriver {
         System.out.println(choice);
         return choice;
     }
+
 }
