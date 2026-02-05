@@ -1,7 +1,7 @@
 package abstraction;
 
 abstract class Employee {
-    int a = 9;
+    int a = 9; // variable by default is non-static and can be accessed by instance methods
 
     public void printThanks() {
         System.out.println("Thank you");
