@@ -14,6 +14,8 @@ abstract class Employee {
 
     public abstract void calculateSalary();
 
+    // public static abstract void abcd(); // static abstract method is not allowed
+    // in Java, it will cause a compilation error
     public static void companyPolicy() {
         System.out.println("Company Policy: belong to parent class ");
     }

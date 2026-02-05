@@ -1,4 +1,3 @@
-package abstraction;
 
 interface AA {
     public static void vishal() {
@@ -7,9 +6,13 @@ interface AA {
 }
 
 class AB implements AA {
+    public void print() {
+        System.out.println("This is AB class method");
+    }
+
     public static void main(String[] args) {
-        AA.vishal(); // Accessing the static method of the interface using the interface name
         AB obj = new AB();
+        obj.print(); // Accessing the static method of the AB class using the object reference
         AA.vishal(); // Accessing the static method of the interface using the interface name
         // obj.vishal(); // Accessing the static method of the interface
         // using the object reference couse error because static method
