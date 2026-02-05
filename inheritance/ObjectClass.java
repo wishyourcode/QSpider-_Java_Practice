@@ -6,7 +6,7 @@ class Vishal {
 
 public class ObjectClass {
     public static void main(String[] args) {
-        Vishal v1 = new Vishal();
+        Vishal1 v1 = new Vishal1();
         System.out.println(v1);
         int b1 = v1.hashCode();
         System.out.println(b1);
