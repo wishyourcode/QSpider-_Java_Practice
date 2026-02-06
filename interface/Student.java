@@ -9,7 +9,8 @@ interface Student1 {
 
 public class Student implements Student1 {
     @Override
-    // showing error because we cannot override the method of interface in interface
+    // we cannot override the method of interface in interface
+    // we can only override the method of interface in class
     public void study() {
         System.out.println("Student is studying");
     }
