@@ -1,13 +1,19 @@
 package inheritance;
 
-public class Dog extends Animal {
+public class Dog implements Animal {
     @Override
     public void makeSound() {
-        System.out.println("Woof! Woof!");
+        System.out.println("Woof!");
     }
 
-    public void fetch() {
-        System.out.println("The dog is fetching the ball");
+    @Override
+    public void eat() {
+        System.out.println("The dog is eating.");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("The dog is sleeping.");
     }
 
 }

@@ -1,15 +1,9 @@
 package inheritance;
 
-public class Animal {
-    public void makeSound() {
-        System.out.println("Some generic animal sound");
-    }
+public interface Animal {
+    public void makeSound();
 
-    public void eat() {
-        System.out.println("The animal is eating");
-    }
+    public void eat();
 
-    public void sleep() {
-        System.out.println("The animal is sleeping");
-    }
+    public void sleep();
 }
