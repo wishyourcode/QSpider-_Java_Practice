@@ -1,4 +1,3 @@
-package inheritance;
 
 public class dogDriver {
     public static void main(String[] args) {

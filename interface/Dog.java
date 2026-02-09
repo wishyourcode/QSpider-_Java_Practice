@@ -1,4 +1,3 @@
-package inheritance;
 
 public class Dog implements Animal {
     @Override
