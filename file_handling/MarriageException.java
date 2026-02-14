@@ -7,7 +7,7 @@ public class MarriageException extends RuntimeException {
         this.message = message;
     }
 
-    public String geMessage() {
+    public String getMessage() {
         return message;
     }
 }
