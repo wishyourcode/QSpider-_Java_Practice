@@ -8,6 +8,7 @@ public class Checked_Exception {
         System.out.println("Enter the 2 Number");
         int l = input.nextInt();
         int b = input.nextInt();
+        input.close();
         try {
             System.out.println(calArea(l, b));
         } catch (Exception e) {
