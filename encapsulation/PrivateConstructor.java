@@ -5,6 +5,22 @@ public class PrivateConstructor {
     private String Name;
     private int rollno;
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public int getRollno() {
+        return rollno;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     private PrivateConstructor(int id, String Name, int rollno) {
         this.id = id;
         this.Name = Name;
@@ -16,4 +32,5 @@ public class PrivateConstructor {
     }
 
     PrivateConstructor p1 = PrivateConstructor.createObj(1, "Vishal", 5);
+
 }
