@@ -4,7 +4,6 @@ public class Trainer {
     private int id;
     private String name;
     private String subject;
-    private Trainer trainer;
 
     public int getId() {
         return id;
@@ -38,5 +37,11 @@ public class Trainer {
 
     public static Trainer createObj(int id, String name, String subject) {
         return new Trainer(id, name, subject);
+    }
+
+    public void DisplayProperty() {
+        System.out.println("Studentid is : " + id);
+        System.out.println("Studnet Name is : " + name);
+        System.out.println("Studnt Subject is : " + subject);
     }
 }
