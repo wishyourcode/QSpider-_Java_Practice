@@ -40,8 +40,12 @@ public class MethodChainong {
     }
 
     public static void main(String[] args) {
-        MethodChainong m1 = new MethodChainong();
-        m1.setId(1).setName("John");
+        MethodChainong m1 = new MethodChainong(4, "Vishal");
+        m1.setId(1).setName("Vishal").setAge(24);
+        System.out.println("Id: " + m1.getId());
+        System.out.println("Name: " + m1.getName());
+        System.out.println("Age: " + m1.getAge());
+
     }
 
 }
