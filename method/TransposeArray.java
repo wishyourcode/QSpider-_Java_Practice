@@ -12,17 +12,27 @@ public class TransposeArray {
             System.out.println();
         }
         System.out.println("Transpose of the array:");
-        int[][] transpose = new int[arr[0].length][arr.length];
+        // we can use extra space to store the transpose of the array
+        // int[][] transpose = new int[arr[0].length][arr.length];
+        // for (int i = 0; i < arr.length; i++) {
+        // for (int j = 0; j < arr[i].length; j++) {
+        // transpose[j][i] = arr[i][j];
+        // }
+        // }
+        // without using extra space
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr[i].length; j++) {
+                int temp = arr[i][j];
+                arr[i][j] = arr[j][i];
+                arr[j][i] = temp;
+            }
+        }
+
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                transpose[j][i] = arr[i][j];
+                System.out.print(arr[i][j] + " ");
             }
+            System.out.println();
         }
-        for (int i = 0; i < transpose.length; i++) {
-            for (int j = 0; j < transpose[i].length; j++) {
-                System.out.print(transpose[i][j] + " ");
-            }
-        }
-        System.out.println();
     }
 }
