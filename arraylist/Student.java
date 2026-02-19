@@ -35,7 +35,7 @@ public class Student {
         Student s1 = new Student(101, "Vishal");
         Student s2 = new Student(102, "Piyush");
         Student s3 = new Student(103, "Mishra");
-        ArrayList ls = new ArrayList();
+        ArrayList<Student> ls = new ArrayList<>();
         ls.add(s1);
         ls.add(s2);
         ls.add(s3);
