@@ -1,17 +1,17 @@
 package inheritance;
 
 class father {
-    String name = "Vishal";
+    String name = "Manoj";
     int age = 29;
 }
 
 class mother {
-    String name = "Ankita";
+    String name = "Meera";
     int age = 27;
 }
 
 class Son extends father {
-    String name = "Anvish";
+    String name = "Vishal";
 
     Son() {
         super();

@@ -34,7 +34,7 @@ public class chaining_in_encapsulation {
 
     public static void main(String[] args) {
         chaining_in_encapsulation emp = new chaining_in_encapsulation();
-        emp.setEmpName("John Doe")
+        emp.setEmpName("Vishal Mishra")
                 .setEmpId(101)
                 .setEmpSalary(75000.00);
 
