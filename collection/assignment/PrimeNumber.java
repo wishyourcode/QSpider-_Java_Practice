@@ -2,13 +2,13 @@ package collection.assignment;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.ListIterator;
+//import java.util.ListIterator;
 
 public class PrimeNumber {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15));
 
-        ListIterator<Integer> i = al.listIterator();
+        // ListIterator<Integer> i = al.listIterator();
 
         // int index = 0;
         // while (index < al.size()){
