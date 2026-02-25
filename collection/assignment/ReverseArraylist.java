@@ -11,12 +11,12 @@ public class ReverseArraylist {
         // ListIterator<Integer> i = al.listIterator();
         // ListIterator<Integer> i2 = al.listIterator(al.size());
 
-        // int left = 0, right = al.size()-1;
-        // while(left < right){
-        // swap(left++,right--,al);
-        // }
-        // System.out.println(al);
-        //
+        int left = 0, right = al.size() - 1;
+        while (left < right) {
+            swap(left++, right--, al);
+        }
+        System.out.println(al);
+
         // int low = i.nextIndex(), high = i2.previousIndex();
         // while (low < high){
         // int temp1 = i.next();

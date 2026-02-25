@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 public class EvenNeber {
     public static void main(String[] args) {
-        ArrayList<Integer> al = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15));
+        ArrayList<Integer> al = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
 
         ListIterator<Integer> i = al.listIterator();
         Iterator<Integer> i2 = al.iterator();
