@@ -1,3 +1,5 @@
+package collection.searchelement;
+
 import java.util.Objects;
 
 public class BankAccount {

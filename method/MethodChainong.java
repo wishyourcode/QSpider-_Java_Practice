@@ -1,3 +1,5 @@
+package method;
+
 public class MethodChainong {
     private int id;
     private String name;

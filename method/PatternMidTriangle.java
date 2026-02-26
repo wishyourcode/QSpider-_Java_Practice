@@ -1,3 +1,5 @@
+package method;
+
 public class PatternMidTriangle {
     public static void main(String[] args) {
         int n = 5;

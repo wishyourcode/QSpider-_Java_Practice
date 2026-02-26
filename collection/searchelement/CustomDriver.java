@@ -1,3 +1,5 @@
+package collection.searchelement;
+
 import java.util.ArrayList;
 import java.util.ListIterator;
 import java.util.Scanner;

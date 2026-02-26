@@ -1,3 +1,5 @@
+package collection.searchelement;
+
 public class UsingAttributes {
     private int id;
     private String name;

@@ -1,3 +1,6 @@
+
+package method;
+
 public class PatternReverseRightAlign {
     // right-aligned triangle pattern in reverse
     public static void main(String[] args) {

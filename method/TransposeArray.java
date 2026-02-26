@@ -1,3 +1,6 @@
+
+package method;
+
 public class TransposeArray {
     public static void main(String[] args) {
         int[][] arr = {

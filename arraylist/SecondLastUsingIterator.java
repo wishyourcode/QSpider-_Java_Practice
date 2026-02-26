@@ -19,7 +19,7 @@ public class SecondLastUsingIterator {
 
     public static void findSecondLast(ArrayList<Integer> q1) {
         // using iterator
-        Iterator i = q1.iterator();
+        Iterator<Integer> i = q1.iterator();
         int max = 0;
         int secondmax = 0;
         while (i.hasNext()) {

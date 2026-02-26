@@ -1,3 +1,5 @@
+package method;
+
 public class PatternRightalign {
     // right-aligned triangle pattern
     public static void main(String[] args) {
