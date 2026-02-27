@@ -1,4 +1,5 @@
-package collection.searchelement;
+package searchelement;
+
 
 import java.util.ArrayList;
 import java.util.ListIterator;

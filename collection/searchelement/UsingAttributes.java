@@ -1,4 +1,4 @@
-package collection.searchelement;
+package searchelement;
 
 public class UsingAttributes {
     private int id;

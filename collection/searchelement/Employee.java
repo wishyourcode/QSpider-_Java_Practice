@@ -1,6 +1,7 @@
-package collection.searchelement;
+package searchelement;
 
 import java.util.Objects;
+
 
 public class Employee {
 
