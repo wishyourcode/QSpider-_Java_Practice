@@ -12,6 +12,10 @@ public class employee {
         V.add(12);
         V.add(null);
         System.out.println(V);
+        V.remove(2);
+        System.out.println(V.contains(67));
+        System.out.println(V);
+
     }
 
 }
