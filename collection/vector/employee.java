@@ -3,6 +3,14 @@ package vector;
 import java.util.Vector;
 
 public class employee {
+    int rollnumber;
+    String name;
+
+    employee(int rollnumber, String name) {
+        this.rollnumber = rollnumber;
+        this.name = name;
+    }
+
     public static void main(String[] args) {
         Vector<Integer> V = new Vector<>();
         V.add(12);
@@ -16,6 +24,9 @@ public class employee {
         System.out.println(V.contains(67));
         System.out.println(V);
 
+        Vector<employee> emp = new Vector<>();
+        emp.add(new employee(10, "Vishal Mishra"));
+        System.out.println(emp);
     }
 
 }
