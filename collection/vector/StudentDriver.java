@@ -1,5 +1,6 @@
 package vector;
 
+import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Vector;
 
@@ -23,6 +24,12 @@ public class StudentDriver {
             Student temp = i2.previous();
             System.out.println(temp);
             System.out.println("====================");
+        }
+        Iterator<Student> i3 = v.iterator();
+        while (i.hasNext()) {
+            Student temp = i3.next();
+            System.out.println(temp);
+            System.out.println("===============");
         }
 
     }
