@@ -29,4 +29,8 @@ public class employee {
         System.out.println(emp);
     }
 
+    public String toString() {
+        return "Roll number of the Empoyee is: " + rollnumber + "\nName of the EMployee is : " + name + "\n";
+    }
+
 }
