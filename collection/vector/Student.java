@@ -11,4 +11,9 @@ public class Student {
         this.dName = dname;
     }
 
+    public String toString() {
+        return "ROll Number of the Student is: " + stdNo + "\n Name of the Student is: " + stdName
+                + "\n Department Name of the Student is: " + dName + "\n";
+    }
+
 }
