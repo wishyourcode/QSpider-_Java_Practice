@@ -15,5 +15,14 @@ public class GeneralOperation {
         q.offer(30);
         System.out.println("After enqueues: " + q);
         System.out.println("Size: " + q.size());
+        // Peek at head without removing
+        System.out.println("Peek: " + q.peek()); // null if empty
+        System.out.println("Element: " + q.element()); // throws if empty
+
+        // Dequeue elements
+        System.out.println("Poll: " + q.poll()); // removes head or returns null
+        System.out.println("Remove: " + q.remove()); // removes head or throws
+        System.out.println("After dequeues: " + q);
+
     }
 }
