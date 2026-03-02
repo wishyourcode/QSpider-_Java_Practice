@@ -11,6 +11,14 @@ public class GeneralOperation {
 
         // Enqueue elements
         q.add(10); // throws exception if it fails
+        q.add(10); // throws exception if it fails
+        q.add(10); // throws exception if it fails
+        q.add(10); // throws exception if it fails
+        q.offer(20); // returns false if it fails
+        q.offer(20); // returns false if it fails
+        q.offer(20); // returns false if it fails
+        q.offer(20); // returns false if it fails
+        q.offer(20); // returns false if it fails
         q.offer(20); // returns false if it fails
         q.offer(30);
         System.out.println("After enqueues: " + q);
