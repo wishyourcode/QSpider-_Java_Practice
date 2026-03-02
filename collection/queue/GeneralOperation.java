@@ -24,5 +24,12 @@ public class GeneralOperation {
         System.out.println("Remove: " + q.remove()); // removes head or throws
         System.out.println("After dequeues: " + q);
 
+        // Other operations
+        System.out.println("Contains 30? " + q.contains(30));
+        System.out.println("Is empty? " + q.isEmpty());
+
+        // Clear the queue
+        q.clear();
+        System.out.println("After clear, is empty? " + q.isEmpty());
     }
 }
