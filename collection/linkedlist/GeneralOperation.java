@@ -26,6 +26,12 @@ public class GeneralOperation {
         System.out.println("indexOf 40: " + ll.indexOf(40));
         System.out.println("getFirst: " + ll.getFirst() + ", getLast: " + ll.getLast());
 
-    }
+        // random-access (note: LinkedList.get(i) is O(n))
+        System.out.print("For-index iteration: ");
+        for (int i = 0; i < ll.size(); i++) {
+            System.out.print(ll.get(i) + " ");
+        }
+        System.out.println();
 
+    }
 }
