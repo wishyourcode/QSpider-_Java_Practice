@@ -33,5 +33,30 @@ public class GeneralOperation {
         }
         System.out.println();
 
+        // enhanced for-loop
+        System.out.print("Enhanced for-loop: ");
+        for (Integer n : ll)
+            System.out.print(n + " ");
+        System.out.println();
+
+        // Iterator
+        System.out.print("Iterator: ");
+        Iterator<Integer> it = ll.iterator();
+        while (it.hasNext())
+            System.out.print(it.next() + " ");
+        System.out.println();
+
+        // ListIterator forward and backward
+        System.out.print("ListIterator forward: ");
+        ListIterator<Integer> litr = ll.listIterator();
+        while (litr.hasNext())
+            System.out.print(litr.next() + " ");
+        System.out.println();
+
+        System.out.print("ListIterator backward: ");
+        while (litr.hasPrevious())
+            System.out.print(litr.previous() + " ");
+        System.out.println();
+
     }
 }
