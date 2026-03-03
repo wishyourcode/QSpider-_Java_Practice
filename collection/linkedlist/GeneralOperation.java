@@ -58,5 +58,17 @@ public class GeneralOperation {
             System.out.print(litr.previous() + " ");
         System.out.println();
 
+        // descendingIterator (reverse)
+        System.out.print("DescendingIterator: ");
+        Iterator<Integer> dit = ll.descendingIterator();
+        while (dit.hasNext())
+            System.out.print(dit.next() + " ");
+        System.out.println();
+
+        // forEach with lambda
+        System.out.print("forEach lambda: ");
+        ll.forEach(n -> System.out.print(n + " "));
+        System.out.println();
+
     }
 }
