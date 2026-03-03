@@ -85,5 +85,14 @@ public class GeneralOperation {
         }
         System.out.println("After removing multiples of 20: " + copy);
 
+        // other useful methods
+        System.out.println("toArray: java.lang.Object[] length = " + ll.toArray().length);
+        ll.set(2, 99); // replace element at index 2
+        System.out.println("After set(2,99): " + ll);
+        System.out.println("removeFirst(): " + ll.removeFirst());
+        System.out.println("removeLast(): " + ll.removeLast());
+        System.out.println("poll(): " + ll.poll());
+        System.out.println("peek(): " + ll.peek());
+        System.out.println("final list: " + ll);
     }
 }
