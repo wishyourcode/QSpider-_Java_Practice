@@ -70,5 +70,20 @@ public class GeneralOperation {
         ll.forEach(n -> System.out.print(n + " "));
         System.out.println();
 
+        // stream forEach
+        System.out.print("stream forEach: ");
+        ll.stream().forEach(n -> System.out.print(n + " "));
+        System.out.println();
+
+        // safe removal during iteration using Iterator.remove()
+        LinkedList<Integer> copy = new LinkedList<>(ll);
+        Iterator<Integer> remIt = copy.iterator();
+        while (remIt.hasNext()) {
+            Integer v = remIt.next();
+            if (v % 20 == 0)
+                remIt.remove();
+        }
+        System.out.println("After removing multiples of 20: " + copy);
+
     }
 }
